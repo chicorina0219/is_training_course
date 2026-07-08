@@ -2,7 +2,9 @@
 # Git commands
 ## よく使うGitコマンド
 - `git status`:
+- `git switch`:
+- `git branch`:
 - `git add`:
-- `git commit`:
-- `git push`:
+- `git commit`: コミットする
+- `git push`: リモートブランチにプッシュする
 - `git pull`:
