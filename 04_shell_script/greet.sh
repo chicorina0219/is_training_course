@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if ["$#" -z]; then
+if [ "$#" -z ]; then
   name="World"
 else
   name=$1
