@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
-name="World"
-name=$1
+if [$# -gt 0]; then
+  name=$1
+else
+  name="World"
+fi
 echo "Hello, $name!"
