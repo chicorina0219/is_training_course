@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-if [ "$#" -z ]; then
-  name="World"
-else
+if [ $# -gt 1 ]; then
   name=$1
+else
+  name="World"
 fi
 echo "Hello, $name!"
